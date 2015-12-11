@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/education"
+        android:id="@+id/txtEducation"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/assofsci"
+        android:id="@+id/txtDeltaDeg"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/txtEducation"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/deltacoll"
+        android:id="@+id/txtDelta"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/txtDeltaDeg"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/deltaGpa"
+        android:id="@+id/txtDeltaGpa"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/txtDelta"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/deltaGradDate"
+        android:id="@+id/txtDeltaDate"
+        android:paddingRight="10dp"
+        android:layout_alignBaseline="@+id/txtDeltaDeg"
+        android:layout_alignBottom="@+id/txtDeltaDeg"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/bsCs"
+        android:id="@+id/txtSVSUDeg"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/txtDeltaGpa"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/svsu"
+        android:id="@+id/textView"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/txtSVSUDeg"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/svsuGpa"
+        android:id="@+id/txtSVSUGpa"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/relCourseWork"
+        android:id="@+id/textView2"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtAnticipated"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/cplusplus"
+        android:id="@+id/txtC"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/OS"
+        android:id="@+id/txtOper"
+        android:textSize="12sp"
+        android:layout_below="@+id/txtC"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/DS"
+        android:id="@+id/txtData"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/txtOper"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/DBS"
+        android:id="@+id/txtDatabase"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textSize="12sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtData"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/OOD"
+        android:id="@+id/txtOOD"
+        android:paddingTop="5dp"
+        android:textSize="12sp"
+        android:layout_below="@+id/txtDatabase"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/javaProg"
+        android:id="@+id/txtJava"
+        android:textSize="12sp"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/txtOOD"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/microNET"
+        android:id="@+id/txtNET"
+        android:paddingTop="5dp"
+        android:textSize="12sp"
+        android:layout_below="@+id/txtJava"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/theoryOfComp"
+        android:id="@+id/textView3"
+        android:textSize="12sp"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/txtNET"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/anticGrad"
+        android:id="@+id/txtAnticipated"
+        android:layout_below="@+id/txtSVSUGpa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="10dp"
+        android:textSize="12sp" />
+
+</RelativeLayout>
+</ScrollView>
